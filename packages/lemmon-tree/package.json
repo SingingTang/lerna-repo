@@ -1,0 +1,12 @@
+{
+  "name": "lemmon-tree",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node index.ts"
+  },
+  "dependencies": {
+    "clock": "1.0.0"
+  }
+}
