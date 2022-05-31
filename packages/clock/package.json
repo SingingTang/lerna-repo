@@ -3,5 +3,6 @@
   "version": "3.0.0",
   "main": "index.ts",
   "license": "MIT",
-  "gitHead": "572b05f9e6e0590f7ea0f546db67dd687a10eab8"
+  "gitHead": "fcad791b6ae260f2abbcc1b031b9bf86f11e6a63",
+  "maintainers": ["singingtang"]
 }
