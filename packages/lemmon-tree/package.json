@@ -7,6 +7,6 @@
     "test": "node index.ts"
   },
   "dependencies": {
-    "clock": "1.0.0"
+    "clock": "^1.0.0"
   }
 }
