@@ -1,5 +1,5 @@
 {
-  "name": "lemmon-tree",
+  "name": "@futuweb/lerna-repo-lemmon-tree",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,5 +8,6 @@
   },
   "dependencies": {
     "clock": "^1.0.0"
-  }
+  },
+  "gitHead": "25449e6702fa093a6e15404148c16faab20d7a94"
 }
