@@ -1,6 +1,6 @@
 {
   "name": "@futuweb/lerna-repo-lemmon-tree",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -10,5 +10,7 @@
     "clock": "^1.0.0"
   },
   "gitHead": "fcad791b6ae260f2abbcc1b031b9bf86f11e6a63",
-  "maintainers": ["singingtang"]
+  "maintainers": [
+    "singingtang"
+  ]
 }
