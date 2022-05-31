@@ -1,6 +1,6 @@
 {
   "name": "@futuweb/lerna-repo-clock",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "index.ts",
   "license": "MIT",
   "gitHead": "572b05f9e6e0590f7ea0f546db67dd687a10eab8"
