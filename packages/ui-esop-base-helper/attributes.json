@@ -1,0 +1,1959 @@
+{
+  "es-upload/url": {
+    "description": "文件上传接口URL, 不设置url则不自动上传文件",
+    "type": "string"
+  },
+  "es-upload/accept": {
+    "description": "允许上传的文件类型，支持后缀名与MIME校验，以逗号分隔",
+    "type": "string"
+  },
+  "es-upload/max-size": {
+    "description": "单个文件的最大尺寸，单位：Byte",
+    "type": "number"
+  },
+  "es-upload/file-name": {
+    "description": "文件名字",
+    "type": "string"
+  },
+  "es-upload/extend-data": {
+    "description": "上传附加请求数据",
+    "type": "object"
+  },
+  "es-upload/extend-header": {
+    "description": "上传附加请求头",
+    "type": "object"
+  },
+  "es-upload/on-upload-click": {
+    "description": "上传按钮被点击的回调;返回false阻止弹出文件框",
+    "type": "func"
+  },
+  "es-upload/on-upload-change": {
+    "description": "选择文件之后的回调",
+    "type": "func"
+  },
+  "es-upload/upload-text": {
+    "description": "上传按钮文案",
+    "type": "string"
+  },
+  "es-upload/after-upload": {
+    "description": "上传成功后的回调",
+    "type": "func"
+  },
+  "es-upload/multi": {
+    "description": "是否为多个上传",
+    "type": "boolean"
+  },
+  "es-upload/max-files-num": {
+    "description": "多个上传时，支持上传的最大文件数",
+    "type": "number"
+  },
+  "es-upload/is-card-list": {
+    "description": "上传模板样式",
+    "type": "boolean",
+    "options": [
+      "true"
+    ]
+  },
+  "es-upload/file-list": {
+    "description": "已上传的文件列表，例如: [{name: 'food.jpg', url: 'https://xxx.cdn.com/xxx.jpg'}]",
+    "type": "array"
+  },
+  "es-upload/max-height": {
+    "description": "上传列表最大高度",
+    "type": "string"
+  },
+  "es-upload/dragable": {
+    "description": "多图模式下是否可拖拽排序",
+    "type": "boolean"
+  },
+  "upload-custom/extend-header": {
+    "description": "上传附加请求头",
+    "type": "object"
+  },
+  "upload-custom/url": {
+    "description": "文件上传接口URL, 不设置url则不自动上传文件",
+    "type": "string"
+  },
+  "upload-custom/get-processing-info-func": {
+    "description": "查询上传数据进度",
+    "type": "func"
+  },
+  "upload-custom/err-file-url": {
+    "description": "上传失败后获取错误详情的url",
+    "type": "string"
+  },
+  "upload-custom/upload-fail-callback": {
+    "description": "文件上传失败回调",
+    "type": "func"
+  },
+  "upload-custom/extend-data": {
+    "description": "上传附加请求数据",
+    "type": "object"
+  },
+  "upload-custom/upload-before": {
+    "description": "文件上传之前的回调",
+    "type": "func"
+  },
+  "upload-custom/upload-process-percent": {
+    "description": "上传进度占进度条的百分比",
+    "type": "number"
+  },
+  "es-tree-node/node": {
+    "description": "",
+    "type": "object"
+  },
+  "es-tree-node/props": {
+    "description": "",
+    "type": "object"
+  },
+  "es-tree-node/show-checkbox": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-tree-node/indent": {
+    "description": "",
+    "type": "string"
+  },
+  "es-tree-node/node-class": {
+    "description": "",
+    "type": "string|func"
+  },
+  "es-tree/data": {
+    "description": "树形控件数据",
+    "type": "array|object"
+  },
+  "es-tree/props": {
+    "description": "配置选项",
+    "type": "object"
+  },
+  "es-tree/node-key": {
+    "description": "节点key",
+    "type": "string"
+  },
+  "es-tree/show-checkbox": {
+    "description": "是否显示多选框",
+    "type": "boolean"
+  },
+  "es-tree/default-expand-all": {
+    "description": "是否默认展开全部",
+    "type": "boolean"
+  },
+  "es-tree/default-checked-keys": {
+    "description": "默认选中的节点key数组",
+    "type": "array"
+  },
+  "es-tree/default-expanded-keys": {
+    "description": "默认展开的节点key数组",
+    "type": "array"
+  },
+  "es-tree/current-node-key": {
+    "description": "默认选中的节点key",
+    "type": "string|number"
+  },
+  "es-tree/auto-expand-parent": {
+    "description": "展开子节点时默认展开父节点",
+    "type": "boolean"
+  },
+  "es-tree/indent": {
+    "description": "相邻层级缩进(px)",
+    "type": "string"
+  },
+  "es-tree/highlight-current": {
+    "description": "当前节点是否高亮",
+    "type": "boolean"
+  },
+  "es-tree/icon-class": {
+    "description": "图标css类",
+    "type": "array"
+  },
+  "es-tree/draggable": {
+    "description": "是否允许拖拽",
+    "type": "boolean"
+  },
+  "es-tree/allow-drag": {
+    "description": "",
+    "type": "func"
+  },
+  "es-tree/allow-drop": {
+    "description": "",
+    "type": "func"
+  },
+  "es-tree/check-strictly": {
+    "description": "父子节点的选择是否不关联, 默认false, 需要关联",
+    "type": "boolean"
+  },
+  "es-tree/node-class": {
+    "description": "节点额外的css类",
+    "type": "string|func"
+  },
+  "es-tree-select/select-items": {
+    "description": "候选列表，必填",
+    "type": "array"
+  },
+  "es-tree-select/v-model": {
+    "description": "绑定值",
+    "type": "string|number|array"
+  },
+  "es-tree-select/key-value": {
+    "description": "value的字段名",
+    "type": "string"
+  },
+  "es-tree-select/key-text": {
+    "description": "text的字段名",
+    "type": "string"
+  },
+  "es-tree-select/key-children": {
+    "description": "子列表的字段名",
+    "type": "string"
+  },
+  "es-tree-select/key-disabled": {
+    "description": "禁用的字段名",
+    "type": "string"
+  },
+  "es-tree-select/multiple": {
+    "description": "多选",
+    "type": "boolean"
+  },
+  "es-tree-select/disabled": {
+    "description": "禁用状态",
+    "type": "boolean"
+  },
+  "es-tree-select/placeholder": {
+    "description": "默认占位文本",
+    "type": "string"
+  },
+  "es-tree-select/only-click-end-node": {
+    "description": "是否末节点可点击",
+    "type": "boolean"
+  },
+  "es-tree-select/filterable": {
+    "description": "是否可筛选",
+    "type": "boolean"
+  },
+  "es-tree-select/clearable": {
+    "description": "是否可清除",
+    "type": "boolean"
+  },
+  "es-tooltip/trigger": {
+    "description": "触发提示框的文本",
+    "type": "string|number"
+  },
+  "es-tooltip/content": {
+    "description": "提示内容，可通过slot#content传入DOM",
+    "type": "string"
+  },
+  "es-tooltip/trigger-type": {
+    "description": "触发类型",
+    "type": "string",
+    "options": [
+      "hover",
+      "click",
+      "focus",
+      "manul"
+    ]
+  },
+  "es-tooltip/arrow": {
+    "description": "是否显示箭头",
+    "type": "boolean"
+  },
+  "es-tooltip/placement": {
+    "description": "tooltip出现位置",
+    "type": "string"
+  },
+  "es-tooltip/popup-class": {
+    "description": "弹层的类",
+    "type": "string|array|object"
+  },
+  "es-tooltip/transition-name": {
+    "description": "动画",
+    "type": "string"
+  },
+  "es-toast/content": {
+    "description": "通知内容（type不为loading时生效）",
+    "type": "string"
+  },
+  "es-toast/type": {
+    "description": "通知类型",
+    "type": "string",
+    "options": [
+      "default",
+      "loading",
+      "success",
+      "fail"
+    ]
+  },
+  "es-toast/duration": {
+    "description": "提示框自动消失延时（单位：秒）,0为不自动消失",
+    "type": "number"
+  },
+  "es-toast/progress": {
+    "description": "type=loading时下方提示文字",
+    "type": "string"
+  },
+  "es-toast/on-close": {
+    "description": "提示框销毁时的回调",
+    "type": "func"
+  },
+  "es-tips/text": {
+    "description": "",
+    "type": "string|number"
+  },
+  "es-tips/z-index": {
+    "description": "",
+    "type": "number"
+  },
+  "es-time-picker/v-model": {
+    "description": "默认时间",
+    "type": "string"
+  },
+  "es-time-picker/format": {
+    "description": "时间格式",
+    "type": "string",
+    "options": [
+      "hh:mm:ss",
+      "hh:mm",
+      "hh",
+      "hh时mm分ss秒"
+    ]
+  },
+  "es-time-picker/clearable": {
+    "description": "是否可清除",
+    "type": "boolean",
+    "options": [
+      "false",
+      ""
+    ]
+  },
+  "es-time-picker/placeholder": {
+    "description": "输入框占位文本",
+    "type": "string"
+  },
+  "es-time-picker/disabled": {
+    "description": "是否禁用",
+    "type": "boolean",
+    "options": [
+      "false"
+    ]
+  },
+  "es-time-picker/readonly": {
+    "description": "input是否只读(避免在移动设备上打开虚拟键盘)",
+    "type": "boolean",
+    "options": [
+      "false"
+    ]
+  },
+  "es-time-picker/need-confirm": {
+    "description": "是否需要“确认”才生效, 与v-bind:value结合使用",
+    "type": "boolean",
+    "options": [
+      "false"
+    ]
+  },
+  "es-time-picker/z-index": {
+    "description": "弹层层级",
+    "type": "number"
+  },
+  "es-time-picker/name": {
+    "description": "input name属性，标记当前input",
+    "type": "string"
+  },
+  "es-tag/type": {
+    "description": "类型",
+    "type": "string",
+    "options": [
+      "success",
+      "info",
+      "warning",
+      "error",
+      "default"
+    ]
+  },
+  "es-tag/effect": {
+    "description": "主题",
+    "type": "string",
+    "options": [
+      "dark",
+      "plain",
+      "light"
+    ]
+  },
+  "es-tag/closable": {
+    "description": "是否可关闭",
+    "type": "boolean"
+  },
+  "es-tag/color": {
+    "description": "背景色，只支持HEX或则rgb()",
+    "type": "string"
+  },
+  "es-tag/size": {
+    "description": "尺寸",
+    "type": "string",
+    "options": [
+      "medium",
+      "small",
+      "mini"
+    ]
+  },
+  "es-tab/type": {
+    "description": "tab类型",
+    "type": "string",
+    "options": [
+      "default",
+      "secondary",
+      "threeLevel"
+    ]
+  },
+  "es-tab/mode": {
+    "description": "tab模式",
+    "type": "string",
+    "options": [
+      "default",
+      "routerLink"
+    ]
+  },
+  "es-tab/v-model": {
+    "description": "当前选项",
+    "type": "number|string"
+  },
+  "es-tab/before-switch": {
+    "description": "beforeSwitch(nextTab, currentTab);点击TabPane时调用",
+    "type": "func"
+  },
+  "es-tab-pane/name": {
+    "description": "tab项名字",
+    "type": "number|string"
+  },
+  "es-tab-pane/num": {
+    "description": "红点数",
+    "type": "number|string"
+  },
+  "es-tab-pane/url": {
+    "description": "当父级Tab为routerLink模式时有效",
+    "type": "string"
+  },
+  "es-tab-pane/before-enter": {
+    "description": "beforeEnter(nextTab, currentTab); 点击TabPane时调用, 先于beforeSwitch执行",
+    "type": "func"
+  },
+  "es-switch/v-model": {
+    "description": "开关状态",
+    "type": "boolean|string|number"
+  },
+  "es-switch/disabled": {
+    "description": "禁用",
+    "type": "boolean"
+  },
+  "es-switch/active-value": {
+    "description": "switch 打开时的值",
+    "type": "boolean|string|number"
+  },
+  "es-switch/inactive-value": {
+    "description": "switch 关闭时的值",
+    "type": "boolean|string|number"
+  },
+  "es-summary-item/item": {
+    "description": "数据项,示例：{text: '姓名'， data: 'coco', deatil: '`<div></div>`'}",
+    "type": "object"
+  },
+  "es-summary/summary-list": {
+    "description": "数据列表,示例：[{text: '姓名'， data: 'coco', deatil: '`<div></div>`'}]",
+    "type": "array"
+  },
+  "es-summary/nowrap": {
+    "description": "是否单行滚动显示",
+    "type": "boolean"
+  },
+  "es-step/type": {
+    "description": "步骤条风格类型",
+    "type": "string",
+    "options": [
+      "default",
+      "mini",
+      "simple(仅纵向支持)"
+    ]
+  },
+  "es-step/direction": {
+    "description": "步骤条方向",
+    "type": "string",
+    "options": [
+      "horizontal",
+      "vertical"
+    ]
+  },
+  "es-step/current": {
+    "description": "步骤条当前索引，从0开始。支持 .sync 修饰符",
+    "type": "number|string"
+  },
+  "es-step/current-status": {
+    "description": "当前步骤的状态",
+    "type": "string",
+    "options": [
+      "finish process pending error"
+    ]
+  },
+  "es-step-item/title": {
+    "description": "标题",
+    "type": "string"
+  },
+  "es-step-item/description": {
+    "description": "辅助信息",
+    "type": "string"
+  },
+  "es-step-item/icon": {
+    "description": "图标，取值为es-icon支持的图标名",
+    "type": "string"
+  },
+  "es-step-item/status": {
+    "description": "设置当前步骤的状态，不设置则根据 Step 确定状态",
+    "type": "string",
+    "options": [
+      "pending",
+      "process",
+      "finish",
+      "error"
+    ]
+  },
+  "es-step-item/name": {
+    "description": "key，将作为 change 事件的参数",
+    "type": "string|number"
+  },
+  "es-step-item/disabled": {
+    "description": "是否可以点击切换",
+    "type": "boolean"
+  },
+  "es-select/select-list": {
+    "description": "候选列表，必填",
+    "type": "array|object"
+  },
+  "es-select/key-value": {
+    "description": "value 的字段名",
+    "type": "string"
+  },
+  "es-select/key-text": {
+    "description": "text 的字段名",
+    "type": "string"
+  },
+  "es-select/key-disabled": {
+    "description": "",
+    "type": "string|func"
+  },
+  "es-select/filterable": {
+    "description": "是否可筛选",
+    "type": "boolean"
+  },
+  "es-select/multiple": {
+    "description": "是否多选",
+    "type": "boolean"
+  },
+  "es-select/disabled": {
+    "description": "禁用状态",
+    "type": "boolean"
+  },
+  "es-select/z-index": {
+    "description": "下拉框 Z 轴层次",
+    "type": "number"
+  },
+  "es-select/v-model": {
+    "description": "默认值或当前选中值",
+    "type": "string|number|array|boolean|object"
+  },
+  "es-select/size": {
+    "description": "输入框尺寸",
+    "type": "string",
+    "options": [
+      "default",
+      "small"
+    ]
+  },
+  "es-select/placeholder": {
+    "description": "默认占位文本",
+    "type": "string"
+  },
+  "es-select/popup-width": {
+    "description": "下拉框宽度, 支持数字, auto, 百分比, em, rem",
+    "type": "string|number"
+  },
+  "es-select/clearable": {
+    "description": "是否可以清空选项",
+    "type": "boolean"
+  },
+  "es-search/value": {
+    "description": ""
+  },
+  "es-search/value-key": {
+    "description": "取回的搜索结果内容键名",
+    "type": "string"
+  },
+  "es-search/placeholder": {
+    "description": "输入框占位符",
+    "type": "string"
+  },
+  "es-search/fetch-result": {
+    "description": "获取搜索结果回调函数",
+    "type": "func"
+  },
+  "es-search/delay": {
+    "description": "防抖延时",
+    "type": "number"
+  },
+  "es-search/z-index": {
+    "description": "下拉框z-index",
+    "type": "number"
+  },
+  "es-search/local-list": {
+    "description": "本地缓存的列表",
+    "type": "array"
+  },
+  "es-search/none-data-tips": {
+    "description": "拉取数据为空时的占位提示文字",
+    "type": "string"
+  },
+  "es-search/disabled": {
+    "description": "禁用",
+    "type": "boolean"
+  },
+  "es-radio/name": {
+    "description": "radio的name属性",
+    "type": "string"
+  },
+  "es-radio/label": {
+    "description": "radio的value属性",
+    "type": "string|number|boolean"
+  },
+  "es-radio/v-model": {
+    "description": "绑定值",
+    "type": "string|number|boolean"
+  },
+  "es-radio/disabled": {
+    "description": "是否禁用",
+    "type": "boolean"
+  },
+  "es-radio/width": {
+    "description": "宽度",
+    "type": "string"
+  },
+  "es-radio-group/v-model": {
+    "description": "绑定值",
+    "type": "string|number|boolean"
+  },
+  "es-radio-group/disabled": {
+    "description": "是否禁用",
+    "type": "boolean"
+  },
+  "es-progress/progress": {
+    "description": "",
+    "type": "number"
+  },
+  "es-progress/color": {
+    "description": "",
+    "type": "string"
+  },
+  "es-progress/bcolor": {
+    "description": "",
+    "type": "string"
+  },
+  "es-progress/width": {
+    "description": "",
+    "type": "string"
+  },
+  "es-progress/height": {
+    "description": "",
+    "type": "string"
+  },
+  "es-popover/trigger": {
+    "description": "触发提示框的文本",
+    "type": "string|number"
+  },
+  "es-popover/title": {
+    "description": "标题",
+    "type": "string"
+  },
+  "es-popover/content": {
+    "description": "提示内容",
+    "type": "string"
+  },
+  "es-popover/show-close": {
+    "description": "是否显示关闭按钮",
+    "type": "boolean"
+  },
+  "es-popover/trigger-type": {
+    "description": "触发类型",
+    "type": "string",
+    "options": [
+      "click",
+      "hover",
+      "focue",
+      "manual"
+    ]
+  },
+  "es-popover/arrow": {
+    "description": "是否显示箭头",
+    "type": "boolean"
+  },
+  "es-popover/placement": {
+    "description": "位置",
+    "type": "string"
+  },
+  "es-popover/popup-class": {
+    "description": "弹层的类名",
+    "type": "string|array|object"
+  },
+  "es-popover/transition-name": {
+    "description": "动画",
+    "type": "string"
+  },
+  "es-popconfirm/trigger": {
+    "description": "触发提示框的文本",
+    "type": "string|number"
+  },
+  "es-popconfirm/title": {
+    "description": "标题",
+    "type": "string"
+  },
+  "es-popconfirm/content": {
+    "description": "提示内容",
+    "type": "string"
+  },
+  "es-popconfirm/show-close": {
+    "description": "是否显示关闭按钮",
+    "type": "boolean"
+  },
+  "es-popconfirm/show-cancel": {
+    "description": "是否展示取消按钮",
+    "type": "boolean"
+  },
+  "es-popconfirm/cancel-text": {
+    "description": "取消按钮文本",
+    "type": "string"
+  },
+  "es-popconfirm/confirm-text": {
+    "description": "确认按钮文本",
+    "type": "string"
+  },
+  "es-popconfirm/trigger-type": {
+    "description": "触发类型",
+    "type": "string",
+    "options": [
+      "click",
+      "hover",
+      "focue",
+      "manual"
+    ]
+  },
+  "es-popconfirm/arrow": {
+    "description": "是否显示箭头",
+    "type": "boolean"
+  },
+  "es-popconfirm/placement": {
+    "description": "位置",
+    "type": "string"
+  },
+  "es-popconfirm/popup-class": {
+    "description": "弹层的类名",
+    "type": "string|array|object"
+  },
+  "es-popconfirm/transition-name": {
+    "description": "动画",
+    "type": "string"
+  },
+  "es-popconfirm/on-confirm": {
+    "description": "点击确认按钮回调,\n同步情况：函数返回值无返回或返回true则自动关闭弹窗，返回false不自动关闭弹窗；\n异步情况：成功后会自动关闭弹窗，失败则不关闭",
+    "type": "func"
+  },
+  "es-page/current-page": {
+    "description": "当前页",
+    "type": "number"
+  },
+  "es-page/page-size": {
+    "description": "分页大小。\n配置 pageSizes 时，支持 .sync 更新",
+    "type": "number"
+  },
+  "es-page/show-record-count": {
+    "description": "显示总条数",
+    "type": "boolean"
+  },
+  "es-page/record-count": {
+    "description": "总记录数",
+    "type": "number"
+  },
+  "es-page/page-count": {
+    "description": "页数",
+    "type": "number"
+  },
+  "es-page/page-sizes": {
+    "description": "可选分页大小",
+    "type": "array"
+  },
+  "es-page/max-page-btn": {
+    "description": "最多显示页码按钮数",
+    "type": "number"
+  },
+  "es-page/folded-max-page-btn": {
+    "description": "折叠时最多显示页码按钮数",
+    "type": "number"
+  },
+  "es-page/show-quick-jump": {
+    "description": "显示跳转输入框，默认超 maxPageBtn 页显示",
+    "type": "boolean"
+  },
+  "es-page/disabled": {
+    "description": "禁用分页",
+    "type": "boolean"
+  },
+  "es-page/align": {
+    "description": "对齐方式",
+    "type": "string",
+    "options": [
+      "left",
+      "right",
+      "center"
+    ]
+  },
+  "es-notification/show": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-notification/title": {
+    "description": "标题",
+    "type": "string"
+  },
+  "es-notification/content": {
+    "description": "内容",
+    "type": "string"
+  },
+  "es-notification/extra-class": {
+    "description": "额外的css类名",
+    "type": "string"
+  },
+  "es-notification/type": {
+    "description": "预置的类型",
+    "type": "string",
+    "options": [
+      "success",
+      "warn",
+      "error"
+    ]
+  },
+  "es-notification/type-icon": {
+    "description": "自定义类型图标",
+    "type": "string"
+  },
+  "es-notification/html-content": {
+    "description": "html内容",
+    "type": "string"
+  },
+  "es-notification/position": {
+    "description": "显示位置",
+    "type": "string",
+    "options": [
+      "top-right",
+      "top-left",
+      "bottom-right",
+      "bottom-left"
+    ]
+  },
+  "es-notification/show-close": {
+    "description": "是否显示关闭图标",
+    "type": "boolean"
+  },
+  "es-notification/buttons": {
+    "description": "操作按钮，字段参考Button组件属性",
+    "type": "array"
+  },
+  "es-notification/duration": {
+    "description": "显示持续时间（秒）",
+    "type": "number"
+  },
+  "es-notification/on-close": {
+    "description": "关闭回调",
+    "type": "func"
+  },
+  "es-notification/on-click": {
+    "description": "点击回调",
+    "type": "func"
+  },
+  "es-message/content": {
+    "description": "消息内容",
+    "type": "string"
+  },
+  "es-message/type": {
+    "description": "消息类型",
+    "type": "string",
+    "options": [
+      "info",
+      "warning",
+      "success",
+      "error",
+      "loading"
+    ]
+  },
+  "es-message/duration": {
+    "description": "自动关闭的延时，单位秒。设为 0 时不自动关闭",
+    "type": "number"
+  },
+  "es-message/closable": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-menu/menu-list": {
+    "description": "菜单列表",
+    "type": "array"
+  },
+  "es-menu/current-module": {
+    "description": "当前模块名",
+    "type": "string"
+  },
+  "es-menu/current-page": {
+    "description": "当前页面名",
+    "type": "string"
+  },
+  "es-menu/shrink": {
+    "description": "是否收起",
+    "type": "boolean"
+  },
+  "es-menu/default-open-keys": {
+    "description": "初始展开数组",
+    "type": "boolean|array"
+  },
+  "es-menu/unique-opened": {
+    "description": "是否只保持一个子菜单展开",
+    "type": "boolean"
+  },
+  "es-loading/visible": {
+    "description": "是否显示",
+    "type": "boolean"
+  },
+  "es-loading/loading-text": {
+    "description": "显示的文本",
+    "type": "string"
+  },
+  "es-loading/fullscreen": {
+    "description": "是否为全局loading",
+    "type": "boolean"
+  },
+  "es-input-tag/v-model": {
+    "description": "绑定值",
+    "type": "string|number"
+  },
+  "es-input-tag/placeholder": {
+    "description": "输入框占位文本",
+    "type": "string|number"
+  },
+  "es-input-tag/disabled": {
+    "description": "是否禁用",
+    "type": "boolean"
+  },
+  "es-input-tag/size": {
+    "description": "尺寸",
+    "type": "string",
+    "options": [
+      "default",
+      "small"
+    ]
+  },
+  "es-input-tag/clearable": {
+    "description": "是否显示清楚按钮",
+    "type": "boolean"
+  },
+  "es-input-tag/get-input": {
+    "description": "函数参数会传入原生input元素",
+    "type": "func"
+  },
+  "es-input-tag/suffix-icon": {
+    "description": "后缀icon",
+    "type": "string"
+  },
+  "es-input-tag/tags": {
+    "description": "",
+    "type": "array"
+  },
+  "es-input-tag/get-tag-key": {
+    "description": "",
+    "type": "func"
+  },
+  "es-input-tag/get-tag-text": {
+    "description": "",
+    "type": "func"
+  },
+  "es-input-tag/get-tag-closable": {
+    "description": "",
+    "type": "func"
+  },
+  "es-input-tag/max-tag-count": {
+    "description": "最多展示的 tag 数量",
+    "type": "number|string",
+    "options": [
+      "responsive"
+    ]
+  },
+  "es-input-tag/readonly": {
+    "description": "",
+    "type": "boolean"
+  },
+  "input-select/multiple": {
+    "description": "",
+    "type": "boolean"
+  },
+  "input-select/filterable": {
+    "description": "",
+    "type": "boolean"
+  },
+  "input-select/placeholder": {
+    "description": "",
+    "type": "string"
+  },
+  "input-select/value": {
+    "description": "",
+    "type": "array"
+  },
+  "input-select/get-value-key": {
+    "description": "",
+    "type": "func"
+  },
+  "input-select/get-value-text": {
+    "description": "",
+    "type": "func"
+  },
+  "input-select/get-value-disabled": {
+    "description": "",
+    "type": "func"
+  },
+  "input-select/filter-value": {
+    "description": "",
+    "type": "string"
+  },
+  "input-select/clearable": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-input/type": {
+    "description": "输入框类型",
+    "type": "string",
+    "options": [
+      "text",
+      "number",
+      "textarea"
+    ]
+  },
+  "es-input/v-model": {
+    "description": "绑定值",
+    "type": "string|number"
+  },
+  "es-input/placeholder": {
+    "description": "输入框占位文本",
+    "type": "string|number"
+  },
+  "es-input/disabled": {
+    "description": "是否禁用",
+    "type": "boolean"
+  },
+  "es-input/size": {
+    "description": "尺寸",
+    "type": "string",
+    "options": [
+      "default",
+      "small"
+    ]
+  },
+  "es-input/clearable": {
+    "description": "是否显示清楚按钮\n传函数时，取函数返回值来判断是否为空值",
+    "type": "boolean|func"
+  },
+  "es-input/get-input": {
+    "description": "函数参数会传入原生input元素",
+    "type": "func"
+  },
+  "es-input/input-style": {
+    "description": "input 样式",
+    "type": "string|array|object"
+  },
+  "es-input/input-class": {
+    "description": "input 类名",
+    "type": "string|array|object"
+  },
+  "es-input/suffix-icon": {
+    "description": "后缀icon",
+    "type": "string"
+  },
+  "es-input/no-emit-form-event": {
+    "description": "给内部组件使用，",
+    "type": "boolean"
+  },
+  "es-image/src": {
+    "description": "图片url",
+    "type": "string"
+  },
+  "es-image/lazy": {
+    "description": "是否懒加载，是: 满足startDownload 和 delay条件后，图片在可视区才加载",
+    "type": "boolean"
+  },
+  "es-image/delay": {
+    "description": "startDownload 初始值为true时有效，指定推迟多少秒后开始加载图片",
+    "type": "number"
+  },
+  "es-image/start-download": {
+    "description": "允许开始下载图片",
+    "type": "boolean"
+  },
+  "es-image/support-retry": {
+    "description": "是否支持重新加载",
+    "type": "boolean"
+  },
+  "es-image-viewer/src-list": {
+    "description": "预览图片地址，值可为 单个url，url数组 或者 all (表示当前页面上的所有图片)",
+    "type": "string|array"
+  },
+  "es-image-viewer/current-index": {
+    "description": "图片索引，当src-list为数组时有效",
+    "type": "number"
+  },
+  "es-image-viewer/z-index": {
+    "description": "图片预览图层的 z-index",
+    "type": "number"
+  },
+  "es-image-viewer/before-close": {
+    "description": "关闭预览图前的回调函数, 第一个参数为关闭图层的hide函数",
+    "type": "func"
+  },
+  "es-icon/name": {
+    "description": "图标名",
+    "type": "string"
+  },
+  "es-form/model": {
+    "description": "表单数据对象",
+    "type": "object"
+  },
+  "es-form/label-width": {
+    "description": "标签宽度",
+    "type": "string"
+  },
+  "es-form/inline": {
+    "description": "行内表单模式",
+    "type": "boolean"
+  },
+  "es-form/static": {
+    "description": "是否切换为静态展示",
+    "type": "boolean"
+  },
+  "es-form/disabled": {
+    "description": "是否禁用全部表单项",
+    "type": "boolean"
+  },
+  "es-form/rules": {
+    "description": "表单验证规则",
+    "type": "object"
+  },
+  "es-form/label-position": {
+    "description": "标签位置",
+    "type": "string",
+    "options": [
+      "top",
+      "left",
+      "right"
+    ]
+  },
+  "es-form/rc-item-width": {
+    "description": ""
+  },
+  "es-form-item/label": {
+    "description": "标签文本",
+    "type": "string"
+  },
+  "es-form-item/label-width": {
+    "description": "标签宽度",
+    "type": "string"
+  },
+  "es-form-item/prop": {
+    "description": "表单项的model字段",
+    "type": "string"
+  },
+  "es-form-item/required": {
+    "description": "是否必填",
+    "type": "boolean"
+  },
+  "es-form-item/rules": {
+    "description": "表单验证规则",
+    "type": "object|array"
+  },
+  "es-filter-box/expand-panel": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-filter-box/hide-button": {
+    "description": "是否隐藏筛选按钮",
+    "type": "boolean"
+  },
+  "es-filter-box/search-list": {
+    "description": "筛选项列表",
+    "type": "array"
+  },
+  "es-filter-box/count": {
+    "description": "",
+    "type": "number"
+  },
+  "es-filter-box/trigger-delay": {
+    "description": "",
+    "type": "number"
+  },
+  "es-filter-box/visible": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-filter-box/filter-data": {
+    "description": "筛选项的数据",
+    "type": "object"
+  },
+  "es-dropdown-item/command": {
+    "description": "指令",
+    "type": "string|number|object"
+  },
+  "es-dropdown-item/disabled": {
+    "description": "禁用",
+    "type": "boolean"
+  },
+  "es-dropdown-item/divided": {
+    "description": "显示分割线",
+    "type": "boolean"
+  },
+  "es-dropdown/popup-class": {
+    "description": "",
+    "type": "string|array|object"
+  },
+  "es-dropdown/hide-after-item-click": {
+    "description": "点击选项后是否隐藏",
+    "type": "boolean"
+  },
+  "es-dialog-form/form-list": {
+    "description": "弹窗内嵌表单（配置见下表）",
+    "type": "array"
+  },
+  "es-dialog/form-list": {
+    "description": "弹窗内嵌表单（配置见下表）",
+    "type": "array"
+  },
+  "es-dialog/is-show": {
+    "description": "弹窗是否显示，支持.sync",
+    "type": "boolean"
+  },
+  "es-dialog/dtitle": {
+    "description": "弹窗标题",
+    "type": "string"
+  },
+  "es-dialog/content": {
+    "description": "弹窗内容（formList 未赋值时生效）",
+    "type": "string|func"
+  },
+  "es-dialog/show-cancel": {
+    "description": "是否展示取消按钮",
+    "type": "boolean"
+  },
+  "es-dialog/show-close": {
+    "description": "是否展示关闭按钮",
+    "type": "boolean"
+  },
+  "es-dialog/cancel-text": {
+    "description": "取消按钮文本",
+    "type": "string"
+  },
+  "es-dialog/extra-class": {
+    "description": "对话框外层容器的类名",
+    "type": "string"
+  },
+  "es-dialog/confirm-text": {
+    "description": "确认按钮文本",
+    "type": "string"
+  },
+  "es-dialog/width": {
+    "description": "弹窗宽度",
+    "type": "string"
+  },
+  "es-dialog/on-validate-failed": {
+    "description": "表单校验错误时的回调，参数为表单数据校验错误详情",
+    "type": "func"
+  },
+  "es-dialog/on-confirm": {
+    "description": "表单校验通过时的回调，参数为若有内嵌表单回传表单数据",
+    "type": "func"
+  },
+  "es-dialog/on-cancel": {
+    "description": "取消按钮点击的回调",
+    "type": "func"
+  },
+  "es-dialog/on-close": {
+    "description": "关闭按钮点击的回调",
+    "type": "func"
+  },
+  "es-year-picker/type": {
+    "description": "",
+    "type": "string"
+  },
+  "es-year-picker/selectdate": {
+    "description": "",
+    "type": "object"
+  },
+  "es-year-picker/enable-range": {
+    "description": ""
+  },
+  "es-year-picker/range-data": {
+    "description": "",
+    "type": "object"
+  },
+  "es-year-picker/position": {
+    "description": "",
+    "type": "string"
+  },
+  "es-year-picker/timezone": {
+    "description": "",
+    "type": "string"
+  },
+  "es-single-picker/select-date": {
+    "description": "",
+    "type": "object"
+  },
+  "es-single-picker/enable-range": {
+    "description": "",
+    "type": "array|object|func"
+  },
+  "es-single-picker/tag-date": {
+    "description": "",
+    "type": "array"
+  },
+  "es-single-picker/value": {
+    "description": "",
+    "type": "date|object|string|number"
+  },
+  "es-single-picker/type": {
+    "description": "",
+    "type": "string"
+  },
+  "es-single-picker/b-show-picker": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-single-picker/position": {
+    "description": "",
+    "type": "string"
+  },
+  "es-single-picker/range-data": {
+    "description": "",
+    "type": "object"
+  },
+  "es-single-picker/end-placeholder": {
+    "description": "",
+    "type": "string"
+  },
+  "es-single-picker/start-placeholder": {
+    "description": "",
+    "type": "string"
+  },
+  "es-single-picker/readonly": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-single-picker/time-format": {
+    "description": "",
+    "type": "string"
+  },
+  "es-single-picker/timezone": {
+    "description": "",
+    "type": "string"
+  },
+  "es-range-picker/select-date": {
+    "description": "",
+    "type": "object"
+  },
+  "es-range-picker/enable-range": {
+    "description": "",
+    "type": "array|object|func"
+  },
+  "es-range-picker/tag-date": {
+    "description": "",
+    "type": "array"
+  },
+  "es-range-picker/value": {
+    "description": "",
+    "type": "date|object|string|number"
+  },
+  "es-range-picker/type": {
+    "description": "",
+    "type": "string"
+  },
+  "es-range-picker/show-type": {
+    "description": "",
+    "type": "string"
+  },
+  "es-range-picker/b-show-picker": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-range-picker/end-placeholder": {
+    "description": "",
+    "type": "string"
+  },
+  "es-range-picker/start-placeholder": {
+    "description": "",
+    "type": "string"
+  },
+  "es-range-picker/readonly": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-range-picker/time-format": {
+    "description": "",
+    "type": "string"
+  },
+  "es-range-picker/timezone": {
+    "description": "",
+    "type": "string"
+  },
+  "es-month-picker/type": {
+    "description": "",
+    "type": "string"
+  },
+  "es-month-picker/selectdate": {
+    "description": "",
+    "type": "object"
+  },
+  "es-month-picker/enable-range": {
+    "description": ""
+  },
+  "es-month-picker/range-data": {
+    "description": "",
+    "type": "object"
+  },
+  "es-month-picker/position": {
+    "description": "",
+    "type": "string"
+  },
+  "es-month-picker/timezone": {
+    "description": "",
+    "type": "string"
+  },
+  "es-date-picker/extend-btns": {
+    "description": "插入按钮",
+    "type": "array"
+  },
+  "es-date-picker/disabled": {
+    "description": "是否禁用",
+    "type": "boolean"
+  },
+  "es-date-picker/value-format": {
+    "description": "dayjs支持的格式",
+    "type": "string"
+  },
+  "es-date-picker/format": {
+    "description": "dayjs支持的格式",
+    "type": "string"
+  },
+  "es-date-picker/enable-range": {
+    "description": "可选日期范围, 可选的日期范围，为[]表示全部范围可选，可传对象{start: '表示开始时间'，end: '表示结束时间'。传入一个函数，参数为当前的日期，需要返回 Boolean 是否禁用这天",
+    "type": "array|object|func"
+  },
+  "es-date-picker/range-separator": {
+    "description": "范围选择器的中间符",
+    "type": "string"
+  },
+  "es-date-picker/z-index": {
+    "description": "弹层层级",
+    "type": "number"
+  },
+  "es-date-picker/tag-date": {
+    "description": "信息打点, 默认长度为0。 支持时间戳(需乘以1000)、日期对象、YYYY-MM-DD、YYYY/MM/DD、31 Dec 2017。",
+    "type": "array"
+  },
+  "es-date-picker/v-model": {
+    "description": "绑定值，支持为string,如'2018-08-08'、 时间戳: 1517500900000(需为number类型)、date类型, range模式下变为对象: {start: '', end: ''}start与end的值也支持上面三种格式（这里传入的值只是初始值，后续发生变化返回的值格式由format设置",
+    "type": "date|object|string|number"
+  },
+  "es-date-picker/name": {
+    "description": "input 的 name 属性",
+    "type": "string"
+  },
+  "es-date-picker/type": {
+    "description": "类型",
+    "type": "string",
+    "options": [
+      "date",
+      "full（加上时分秒）",
+      "year（只选到年）",
+      "month(只选到月)",
+      "range(时间范围选择)",
+      "full-range(详细时间范围选择)",
+      "month-range(月范围选择)",
+      "year-range(年范围选择)"
+    ]
+  },
+  "es-date-picker/clearable": {
+    "description": "是否可清除",
+    "type": "boolean"
+  },
+  "es-date-picker/placeholder": {
+    "description": "占位符",
+    "type": "string"
+  },
+  "es-date-picker/start-placeholder": {
+    "description": "",
+    "type": "string"
+  },
+  "es-date-picker/end-placeholder": {
+    "description": "",
+    "type": "string"
+  },
+  "es-date-picker/readonly": {
+    "description": "是否只读，false时input框可以进行快捷选中",
+    "type": "boolean"
+  },
+  "es-date-picker/width": {
+    "description": "",
+    "type": "number"
+  },
+  "es-date-picker/need-check": {
+    "description": "是否需要确认、重置按钮，一般详细时间推荐使用",
+    "type": "boolean"
+  },
+  "es-date-picker/timezone": {
+    "description": "时区,为dayjs内置的timezone插件，默认北京时间，常用可选：America/New_York纽约时间",
+    "type": "string"
+  },
+  "es-calendar/tag-date": {
+    "description": "",
+    "type": "array"
+  },
+  "es-calendar/type": {
+    "description": "",
+    "type": "string"
+  },
+  "es-calendar/selectdate": {
+    "description": "",
+    "type": "object"
+  },
+  "es-calendar/enable-range": {
+    "description": ""
+  },
+  "es-calendar/range-data": {
+    "description": "",
+    "type": "object"
+  },
+  "es-calendar/position": {
+    "description": "",
+    "type": "string"
+  },
+  "es-calendar/timezone": {
+    "description": "",
+    "type": "string"
+  },
+  "es-checkbox/v-model": {
+    "description": "绑定值",
+    "type": "string|number|boolean"
+  },
+  "es-checkbox/name": {
+    "description": "checkbox的name属性",
+    "type": "string"
+  },
+  "es-checkbox/label": {
+    "description": "checkbox的value属性",
+    "type": "string|number|boolean"
+  },
+  "es-checkbox/indeterminate": {
+    "description": "是否为部分选中, 优先级高于全选",
+    "type": "boolean"
+  },
+  "es-checkbox/disabled": {
+    "description": "是否禁用",
+    "type": "boolean"
+  },
+  "es-checkbox/width": {
+    "description": "最小宽度",
+    "type": "string"
+  },
+  "es-checkbox/type": {
+    "description": "类型",
+    "type": "string",
+    "options": [
+      "default",
+      "button"
+    ]
+  },
+  "es-checkbox-group/v-model": {
+    "description": "绑定值",
+    "type": "array"
+  },
+  "es-checkbox-group/disabled": {
+    "description": "是否禁用",
+    "type": "boolean"
+  },
+  "es-options/loading": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-options/empty": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-options/empty-tip": {
+    "description": "",
+    "type": "string"
+  },
+  "es-options/multiple": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-options/show-checkbox": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-options/show-radio": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-options/disabled-key-default": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-option/selected": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-option/active": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-option/indeterminate": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-option/disabled": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-option/loading": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-option/suffix-icon": {
+    "description": "",
+    "type": "string"
+  },
+  "es-option/option-index": {
+    "description": "",
+    "type": "number"
+  },
+  "es-cascader-panel/value": {
+    "description": "",
+    "type": "string|number|array|object"
+  },
+  "es-cascader-panel/separator": {
+    "description": "",
+    "type": "string"
+  },
+  "es-cascader-panel/options": {
+    "description": "",
+    "type": "array"
+  },
+  "es-cascader-panel/on-options-update": {
+    "description": "",
+    "type": "func"
+  },
+  "es-cascader-panel/multiple": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-cascader-panel/independent": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-cascader-panel/option-key": {
+    "description": "",
+    "type": "string"
+  },
+  "es-cascader-panel/option-label": {
+    "description": "",
+    "type": "string"
+  },
+  "es-cascader-panel/option-children": {
+    "description": "",
+    "type": "string"
+  },
+  "es-cascader-panel/option-disabled": {
+    "description": "",
+    "type": "func"
+  },
+  "es-cascader-panel/render-option": {
+    "description": "",
+    "type": "func"
+  },
+  "es-cascader-panel/load-children": {
+    "description": "",
+    "type": "func"
+  },
+  "es-cascader-panel/auto-load-children": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-cascader-panel/expand-trigger": {
+    "description": "",
+    "type": "string"
+  },
+  "es-cascader-panel/filter-text": {
+    "description": "",
+    "type": "string"
+  },
+  "es-cascader-panel/filter-option": {
+    "description": "",
+    "type": "boolean|func"
+  },
+  "es-cascader-panel/empty-tip": {
+    "description": "",
+    "type": "string"
+  },
+  "es-cascader-panel/value-type": {
+    "description": "",
+    "type": "string"
+  },
+  "es-cascader-menu/options": {
+    "description": "",
+    "type": "array"
+  },
+  "es-cascader-menu/index": {
+    "description": "",
+    "type": "number"
+  },
+  "es-cascader-menu/is-filter-mode": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-cascader-menu/loading": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-cascader/v-model": {
+    "description": "v-model 当前值，对应事件 change",
+    "type": "string|number|array|object"
+  },
+  "es-cascader/value-type": {
+    "description": "value 的类型",
+    "type": "string",
+    "options": [
+      "key",
+      "data",
+      "keyPath",
+      "dataPath"
+    ]
+  },
+  "es-cascader/custom-display-value": {
+    "description": "自定义选中值的显示，参数为选中值对应的 option 数组",
+    "type": "func"
+  },
+  "es-cascader/placeholder": {
+    "description": "输入提示",
+    "type": "string"
+  },
+  "es-cascader/size": {
+    "description": "大小",
+    "type": "string",
+    "options": [
+      "default",
+      "small"
+    ]
+  },
+  "es-cascader/suffix-icon": {
+    "description": "后缀图标",
+    "type": "string"
+  },
+  "es-cascader/clearable": {
+    "description": "是否可以清空",
+    "type": "boolean"
+  },
+  "es-cascader/disabled": {
+    "description": "禁用",
+    "type": "boolean"
+  },
+  "es-cascader/readonly": {
+    "description": "只读",
+    "type": "boolean"
+  },
+  "es-cascader/separator": {
+    "description": "选中值分割符",
+    "type": "string"
+  },
+  "es-cascader/list": {
+    "description": "选项数据源",
+    "type": "array"
+  },
+  "es-cascader/multiple": {
+    "description": "是否多选",
+    "type": "boolean"
+  },
+  "es-cascader/independent": {
+    "description": "每个选项都独立可选，而非只有叶子节点可选",
+    "type": "boolean"
+  },
+  "es-cascader/option-key": {
+    "description": "指定选项的 value 在 data 中的键值",
+    "type": "string"
+  },
+  "es-cascader/option-label": {
+    "description": "指定选项的 label 在 data 中的键值",
+    "type": "string"
+  },
+  "es-cascader/option-children": {
+    "description": "指定选项的 children 在 data 中的键值",
+    "type": "string"
+  },
+  "es-cascader/option-disabled": {
+    "description": "",
+    "type": "string|func"
+  },
+  "es-cascader/render-option": {
+    "description": "自定义渲染 option 函数，不适用于筛选节点",
+    "type": "func"
+  },
+  "es-cascader/load-children": {
+    "description": "自定义加载子节点方法，需设置需要动态加载的节点 children 为 true",
+    "type": "func"
+  },
+  "es-cascader/auto-load-children": {
+    "description": "是否根据选项自动加载子节点（比如初始化 value 有值的时候）",
+    "type": "boolean"
+  },
+  "es-cascader/expand-trigger": {
+    "description": "子菜单的展开方式",
+    "type": "string",
+    "options": [
+      "click",
+      "hover"
+    ]
+  },
+  "es-cascader/filter-option": {
+    "description": "筛选功能\n设置为 true 则根据 optionLabel 的值自动筛选\n设置为 false 不作过滤操作\n可以是函数，自定义筛选规则",
+    "type": "boolean|func"
+  },
+  "es-cascader/empty-tip": {
+    "description": "结果为空时提示文字，支持同名slot",
+    "type": "string"
+  },
+  "es-cascader/popup-props": {
+    "description": "",
+    "type": "object"
+  },
+  "es-button/type": {
+    "description": "按钮类型",
+    "options": [
+      "default",
+      "second",
+      "text",
+      "assist"
+    ]
+  },
+  "es-button/color": {
+    "description": "按钮颜色： default, neutral, dangerous",
+    "type": "string",
+    "options": [
+      "default",
+      "neutral",
+      "dangerous"
+    ]
+  },
+  "es-button/text": {
+    "description": "按钮文本",
+    "type": "string"
+  },
+  "es-button/size": {
+    "description": "按钮型号",
+    "type": "string",
+    "options": [
+      "default",
+      "small"
+    ]
+  },
+  "es-button/disabled": {
+    "description": "禁用",
+    "type": "boolean"
+  },
+  "es-button/loading": {
+    "description": "加载中",
+    "type": "boolean"
+  },
+  "es-button/icon": {
+    "description": "图标，默认放在文字前面，其他位置需要自己使用 slot 来放置",
+    "type": "string"
+  },
+  "es-button/icon-only": {
+    "description": "只有icon的按钮，宽度自适应",
+    "type": "boolean"
+  },
+  "es-bubble/text": {
+    "description": "",
+    "type": "string"
+  },
+  "es-bubble/content": {
+    "description": "",
+    "type": "string"
+  },
+  "es-bubble/z-index": {
+    "description": "",
+    "type": "number"
+  },
+  "es-bubble/display": {
+    "description": "",
+    "type": "string"
+  },
+  "es-bubble/trigger": {
+    "description": "",
+    "type": "string"
+  },
+  "es-bubble/trigger-margin": {
+    "description": "",
+    "type": "number"
+  },
+  "es-bubble/width": {
+    "description": "",
+    "type": "string"
+  },
+  "es-bubble/max-height": {
+    "description": "",
+    "type": "string"
+  },
+  "es-bubble/is-show": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-bubble/show-close": {
+    "description": "",
+    "type": "boolean"
+  },
+  "es-breadcrumb-item/to": {
+    "description": "路由跳转对象，同 `vue-router` 的 `to`",
+    "type": "object|string"
+  },
+  "es-breadcrumb-item/replace": {
+    "description": "在使用 to 进行路由跳转时，启用 replace 将不会向 history 添加新记录",
+    "type": "boolean"
+  },
+  "es-breadcrumb/separator": {
+    "description": "分隔符",
+    "type": "string"
+  },
+  "es-breadcrumb/separator-class": {
+    "description": "图标分隔符",
+    "type": "string"
+  },
+  "es-alert/type": {
+    "description": "Alert 类型",
+    "type": "string",
+    "options": [
+      "info",
+      "warning",
+      "success",
+      "error"
+    ]
+  },
+  "es-alert/show-icon": {
+    "description": "显示图标",
+    "type": "boolean"
+  },
+  "es-alert/closable": {
+    "description": "是否可关闭",
+    "type": "boolean"
+  }
+}

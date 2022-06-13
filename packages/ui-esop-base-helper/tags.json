@@ -1,0 +1,748 @@
+{
+  "es-alert": {
+    "attributes": [
+      "type",
+      "show-icon",
+      "closable"
+    ],
+    "description": ""
+  },
+  "es-breadcrumb": {
+    "attributes": [
+      "separator",
+      "separator-class"
+    ],
+    "description": ""
+  },
+  "es-breadcrumb-item": {
+    "attributes": [
+      "to",
+      "replace"
+    ],
+    "description": ""
+  },
+  "es-bubble": {
+    "attributes": [
+      "text",
+      "content",
+      "z-index",
+      "display",
+      "trigger",
+      "trigger-margin",
+      "width",
+      "max-height",
+      "is-show",
+      "show-close"
+    ],
+    "description": ""
+  },
+  "es-button": {
+    "attributes": [
+      "type",
+      "color",
+      "text",
+      "size",
+      "disabled",
+      "loading",
+      "icon",
+      "icon-only"
+    ],
+    "description": ""
+  },
+  "es-cascader": {
+    "attributes": [
+      "v-model",
+      "value-type",
+      "custom-display-value",
+      "placeholder",
+      "size",
+      "suffix-icon",
+      "clearable",
+      "disabled",
+      "readonly",
+      "separator",
+      "list",
+      "multiple",
+      "independent",
+      "option-key",
+      "option-label",
+      "option-children",
+      "option-disabled",
+      "render-option",
+      "load-children",
+      "auto-load-children",
+      "expand-trigger",
+      "filter-option",
+      "empty-tip",
+      "popup-props"
+    ],
+    "description": ""
+  },
+  "es-cascader-menu": {
+    "attributes": [
+      "options",
+      "index",
+      "is-filter-mode",
+      "loading"
+    ],
+    "description": ""
+  },
+  "es-cascader-panel": {
+    "attributes": [
+      "value",
+      "separator",
+      "options",
+      "on-options-update",
+      "multiple",
+      "independent",
+      "option-key",
+      "option-label",
+      "option-children",
+      "option-disabled",
+      "render-option",
+      "load-children",
+      "auto-load-children",
+      "expand-trigger",
+      "filter-text",
+      "filter-option",
+      "empty-tip",
+      "value-type"
+    ],
+    "description": ""
+  },
+  "es-option": {
+    "attributes": [
+      "selected",
+      "active",
+      "indeterminate",
+      "disabled",
+      "loading",
+      "suffix-icon",
+      "option-index"
+    ],
+    "description": ""
+  },
+  "es-options": {
+    "attributes": [
+      "loading",
+      "empty",
+      "empty-tip",
+      "multiple",
+      "show-checkbox",
+      "show-radio",
+      "disabled-key-default"
+    ],
+    "description": ""
+  },
+  "es-checkbox-group": {
+    "attributes": [
+      "v-model",
+      "disabled"
+    ],
+    "description": ""
+  },
+  "es-checkbox": {
+    "attributes": [
+      "v-model",
+      "name",
+      "label",
+      "indeterminate",
+      "disabled",
+      "width",
+      "type"
+    ],
+    "description": ""
+  },
+  "es-calendar": {
+    "attributes": [
+      "tag-date",
+      "type",
+      "selectdate",
+      "enable-range",
+      "range-data",
+      "position",
+      "timezone"
+    ],
+    "description": ""
+  },
+  "es-date-picker": {
+    "attributes": [
+      "extend-btns",
+      "disabled",
+      "value-format",
+      "format",
+      "enable-range",
+      "range-separator",
+      "z-index",
+      "tag-date",
+      "v-model",
+      "name",
+      "type",
+      "clearable",
+      "placeholder",
+      "start-placeholder",
+      "end-placeholder",
+      "readonly",
+      "width",
+      "need-check",
+      "timezone"
+    ],
+    "description": ""
+  },
+  "es-month-picker": {
+    "attributes": [
+      "type",
+      "selectdate",
+      "enable-range",
+      "range-data",
+      "position",
+      "timezone"
+    ],
+    "description": ""
+  },
+  "es-range-picker": {
+    "attributes": [
+      "select-date",
+      "enable-range",
+      "tag-date",
+      "value",
+      "type",
+      "show-type",
+      "b-show-picker",
+      "end-placeholder",
+      "start-placeholder",
+      "readonly",
+      "time-format",
+      "timezone"
+    ],
+    "description": ""
+  },
+  "es-single-picker": {
+    "attributes": [
+      "select-date",
+      "enable-range",
+      "tag-date",
+      "value",
+      "type",
+      "b-show-picker",
+      "position",
+      "range-data",
+      "end-placeholder",
+      "start-placeholder",
+      "readonly",
+      "time-format",
+      "timezone"
+    ],
+    "description": ""
+  },
+  "es-year-picker": {
+    "attributes": [
+      "type",
+      "selectdate",
+      "enable-range",
+      "range-data",
+      "position",
+      "timezone"
+    ],
+    "description": ""
+  },
+  "es-dialog": {
+    "attributes": [
+      "form-list",
+      "is-show",
+      "dtitle",
+      "content",
+      "show-cancel",
+      "show-close",
+      "cancel-text",
+      "extra-class",
+      "confirm-text",
+      "width",
+      "on-validate-failed",
+      "on-confirm",
+      "on-cancel",
+      "on-close"
+    ],
+    "description": ""
+  },
+  "es-dialog-form": {
+    "attributes": [
+      "form-list"
+    ],
+    "description": ""
+  },
+  "es-dropdown": {
+    "attributes": [
+      "popup-class",
+      "hide-after-item-click"
+    ],
+    "description": ""
+  },
+  "es-dropdown-item": {
+    "attributes": [
+      "command",
+      "disabled",
+      "divided"
+    ],
+    "description": ""
+  },
+  "es-dropdown-menu": {
+    "description": ""
+  },
+  "es-filter-box": {
+    "attributes": [
+      "expand-panel",
+      "hide-button",
+      "search-list",
+      "count",
+      "trigger-delay",
+      "visible"
+    ],
+    "description": ""
+  },
+  "es-form-item": {
+    "attributes": [
+      "label",
+      "label-width",
+      "prop",
+      "required",
+      "rules"
+    ],
+    "description": ""
+  },
+  "es-form": {
+    "attributes": [
+      "model",
+      "label-width",
+      "inline",
+      "static",
+      "disabled",
+      "rules",
+      "label-position",
+      "rc-item-width"
+    ],
+    "description": ""
+  },
+  "es-icon": {
+    "attributes": [
+      "name"
+    ],
+    "description": ""
+  },
+  "es-image-viewer": {
+    "attributes": [
+      "src-list",
+      "current-index",
+      "z-index",
+      "before-close"
+    ],
+    "description": ""
+  },
+  "es-image": {
+    "attributes": [
+      "src",
+      "lazy",
+      "delay",
+      "start-download",
+      "support-retry"
+    ],
+    "description": ""
+  },
+  "es-input": {
+    "attributes": [
+      "type",
+      "v-model",
+      "placeholder",
+      "disabled",
+      "size",
+      "clearable",
+      "get-input",
+      "input-style",
+      "input-class",
+      "suffix-icon",
+      "no-emit-form-event"
+    ],
+    "description": ""
+  },
+  "input-select": {
+    "attributes": [
+      "multiple",
+      "filterable",
+      "placeholder",
+      "value",
+      "get-value-key",
+      "get-value-text",
+      "get-value-disabled",
+      "filter-value",
+      "clearable"
+    ],
+    "description": ""
+  },
+  "es-input-tag": {
+    "attributes": [
+      "v-model",
+      "placeholder",
+      "disabled",
+      "size",
+      "clearable",
+      "get-input",
+      "suffix-icon",
+      "tags",
+      "get-tag-key",
+      "get-tag-text",
+      "get-tag-closable",
+      "max-tag-count",
+      "readonly"
+    ],
+    "description": ""
+  },
+  "es-loading": {
+    "attributes": [
+      "visible",
+      "loading-text",
+      "fullscreen"
+    ],
+    "description": ""
+  },
+  "es-menu": {
+    "attributes": [
+      "menu-list",
+      "current-module",
+      "current-page",
+      "shrink",
+      "default-open-keys",
+      "unique-opened"
+    ],
+    "description": ""
+  },
+  "es-message": {
+    "attributes": [
+      "content",
+      "type",
+      "duration",
+      "closable"
+    ],
+    "description": ""
+  },
+  "es-notification": {
+    "attributes": [
+      "show",
+      "title",
+      "content",
+      "extra-class",
+      "type",
+      "type-icon",
+      "html-content",
+      "position",
+      "show-close",
+      "buttons",
+      "duration",
+      "on-close",
+      "on-click"
+    ],
+    "description": ""
+  },
+  "es-page": {
+    "attributes": [
+      "current-page",
+      "page-size",
+      "show-record-count",
+      "record-count",
+      "page-count",
+      "page-sizes",
+      "max-page-btn",
+      "folded-max-page-btn",
+      "show-quick-jump",
+      "disabled",
+      "align"
+    ],
+    "description": ""
+  },
+  "es-popconfirm": {
+    "attributes": [
+      "trigger",
+      "title",
+      "content",
+      "show-close",
+      "show-cancel",
+      "cancel-text",
+      "confirm-text",
+      "trigger-type",
+      "arrow",
+      "placement",
+      "popup-class",
+      "transition-name",
+      "on-confirm"
+    ],
+    "description": ""
+  },
+  "es-popover": {
+    "attributes": [
+      "trigger",
+      "title",
+      "content",
+      "show-close",
+      "trigger-type",
+      "arrow",
+      "placement",
+      "popup-class",
+      "transition-name"
+    ],
+    "description": ""
+  },
+  "es-progress": {
+    "attributes": [
+      "progress",
+      "color",
+      "bcolor",
+      "width",
+      "height"
+    ],
+    "description": ""
+  },
+  "es-radio-group": {
+    "attributes": [
+      "v-model",
+      "disabled"
+    ],
+    "description": ""
+  },
+  "es-radio": {
+    "attributes": [
+      "name",
+      "label",
+      "v-model",
+      "disabled",
+      "width"
+    ],
+    "description": ""
+  },
+  "es-search": {
+    "attributes": [
+      "value",
+      "value-key",
+      "placeholder",
+      "fetch-result",
+      "delay",
+      "z-index",
+      "local-list",
+      "none-data-tips",
+      "disabled"
+    ],
+    "description": ""
+  },
+  "es-select": {
+    "attributes": [
+      "select-list",
+      "key-value",
+      "key-text",
+      "key-disabled",
+      "filterable",
+      "multiple",
+      "disabled",
+      "z-index",
+      "v-model",
+      "size",
+      "placeholder",
+      "popup-width",
+      "clearable"
+    ],
+    "description": ""
+  },
+  "es-step-item": {
+    "attributes": [
+      "title",
+      "description",
+      "icon",
+      "status",
+      "name",
+      "disabled"
+    ],
+    "description": ""
+  },
+  "es-step": {
+    "attributes": [
+      "type",
+      "direction",
+      "current",
+      "current-status"
+    ],
+    "description": ""
+  },
+  "es-summary": {
+    "attributes": [
+      "summary-list",
+      "nowrap"
+    ],
+    "description": ""
+  },
+  "es-summary-item": {
+    "attributes": [
+      "item"
+    ],
+    "description": ""
+  },
+  "es-switch": {
+    "attributes": [
+      "v-model",
+      "disabled",
+      "active-value",
+      "inactive-value"
+    ],
+    "description": ""
+  },
+  "es-tab-pane": {
+    "attributes": [
+      "name",
+      "num",
+      "url",
+      "before-enter"
+    ],
+    "description": ""
+  },
+  "es-tab": {
+    "attributes": [
+      "type",
+      "mode",
+      "v-model",
+      "before-switch"
+    ],
+    "description": ""
+  },
+  "es-tag": {
+    "attributes": [
+      "type",
+      "effect",
+      "closable",
+      "color",
+      "size"
+    ],
+    "description": ""
+  },
+  "es-time-picker": {
+    "attributes": [
+      "v-model",
+      "format",
+      "clearable",
+      "placeholder",
+      "disabled",
+      "readonly",
+      "need-confirm",
+      "z-index",
+      "name"
+    ],
+    "description": ""
+  },
+  "es-tips": {
+    "attributes": [
+      "text",
+      "z-index"
+    ],
+    "description": ""
+  },
+  "es-toast": {
+    "attributes": [
+      "content",
+      "type",
+      "duration",
+      "progress",
+      "on-close"
+    ],
+    "description": ""
+  },
+  "es-tooltip": {
+    "attributes": [
+      "trigger",
+      "content",
+      "trigger-type",
+      "arrow",
+      "placement",
+      "popup-class",
+      "transition-name"
+    ],
+    "description": ""
+  },
+  "es-tree-select": {
+    "attributes": [
+      "select-items",
+      "v-model",
+      "key-value",
+      "key-text",
+      "key-children",
+      "key-disabled",
+      "multiple",
+      "disabled",
+      "placeholder",
+      "only-click-end-node",
+      "filterable",
+      "clearable"
+    ],
+    "description": ""
+  },
+  "es-tree": {
+    "attributes": [
+      "data",
+      "props",
+      "node-key",
+      "show-checkbox",
+      "default-expand-all",
+      "default-checked-keys",
+      "default-expanded-keys",
+      "current-node-key",
+      "auto-expand-parent",
+      "indent",
+      "highlight-current",
+      "icon-class",
+      "draggable",
+      "allow-drag",
+      "allow-drop",
+      "check-strictly",
+      "node-class"
+    ],
+    "description": ""
+  },
+  "es-tree-node": {
+    "attributes": [
+      "node",
+      "props",
+      "show-checkbox",
+      "indent",
+      "node-class"
+    ],
+    "description": ""
+  },
+  "upload-custom": {
+    "attributes": [
+      "extend-header",
+      "url",
+      "get-processing-info-func",
+      "err-file-url",
+      "upload-fail-callback",
+      "extend-data",
+      "upload-before",
+      "upload-process-percent"
+    ],
+    "description": ""
+  },
+  "es-upload": {
+    "attributes": [
+      "url",
+      "accept",
+      "max-size",
+      "file-name",
+      "extend-data",
+      "extend-header",
+      "on-upload-click",
+      "on-upload-change",
+      "upload-text",
+      "after-upload",
+      "multi",
+      "max-files-num",
+      "is-card-list",
+      "file-list",
+      "max-height",
+      "dragable"
+    ],
+    "description": ""
+  }
+}
