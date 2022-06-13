@@ -8,9 +8,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "main": "tags.json",
   "files": [
-    "lib"
+    "tags.json",
+    "attributes.json"
   ],
   "vetur": {
     "tags": "./tags.json",
