@@ -1,6 +1,6 @@
 {
   "name": "@futuweb/ui-esop-base-helper",
-  "version": "1.0.0",
+  "version": "5.0.0",
   "description": " Tags and attributes information of @futuweb/ui-esop-base, which makes IDE / test editor plugin development easier.",
   "author": "singing <singingtang@futunn.com>",
   "license": "ISC",
@@ -18,8 +18,7 @@
   "publishConfig": {
     "registry": "http://registry.npm.oa.com/"
   },
- 
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  } 
+  }
 }
