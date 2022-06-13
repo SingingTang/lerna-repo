@@ -15,10 +15,8 @@
     "tags": "./tags.json",
     "attributes": "./attributes.json"
   },
-  "publishConfig": {
-    "registry": "http://registry.npm.oa.com/"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  "maintainers": [
+    "singingtang"
+  ],
+  "gitHead": "a19f525a8ab862fd187b4065ecc872202f22aa28"
 }
